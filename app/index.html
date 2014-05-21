@@ -1,37 +1,38 @@
 <!doctype html>
 <html>
-	<head>
+<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>jQuery Mobile Bootstrap Theme</title>
+		<title>jQuery Mobile App - Home</title>
 		<link rel="stylesheet" href="styles/jquery-mobile.css">
+		<link rel="stylesheet" href="styles/Bootstrap.css">
   		<script data-main="scripts/main" src="scripts/libs/require.js"></script>
-	</head>
-	<body>
-		<div data-role="page" data-theme="a">
-			<div data-role="header" data-position="inline">
-				<h1>jQuery Mobile Bootstrap Theme</h1>
-				<div data-role="navbar">
-					<ul>
-						<li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
-						<li><a href="buttons.html" data-icon="star">Buttons</a></li>
-						<li><a href="listviews.html" data-icon="grid">Lists</a></li>
-						<li><a href="nav.html" data-icon="search">Nav</a></li>
-						<li><a href="forms.html" data-icon="gear">Forms</a></li>
-					</ul>
-				</div>
-			</div>
-			<div data-role="content" data-theme="a">
-
-				<a href="https://github.com/ssthil/Jquery-mobile-Yeoman" data-role="button" data-icon="star">Get the code</a>
-
-				<h2>Overview</h2>
-
-				<p>
-					The jQuery Mobile Bootstrap theme is meant to duplicate the appearance of <a href="http://getbootstrap.com/">Bootstrap</a> within the context of a jQuery Mobile application. Currently only the colors are mimicked, but eventually some of the components might also work their way into the theme.
-				</p>
-
+</head>
+<body>
+	<div data-role="page">
+	
+		<div data-role="header" data-position="inline" data-theme="c">
+			<h1 class="cus-title-pd">jQuery Mobile App - Home</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="profile.html" data-icon="star">Profile</a></li>
+					<li><a href="works.html" data-icon="grid">Works</a></li>
+				</ul>
 			</div>
 		</div>
-	</body>
+		<div data-role="main" class="ui-content cus-bg">
+			reyhrtk
+		</div>
+	
+	<div data-role="footer" data-position="fixed" data-theme="c">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="">Connect Me</a></li>
+				<li><a href="">Email Me</a></li>	
+			</ul>
+		</div>
+	</div><!-- /footer -->
+	</div><!-- /page -->
+</body>
 </html>
