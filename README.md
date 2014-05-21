@@ -1,7 +1,7 @@
 Jquery-mobile-Yeoman
 ====================
 
-jquery mobile app with yeoman
+Jquery mobile app with yeoman
 
 
 Scaffolds a jQuery Mobile web application based on the 'Twitter Bootstrap jQuery Mobile Theme'
