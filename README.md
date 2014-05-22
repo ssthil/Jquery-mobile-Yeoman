@@ -18,4 +18,5 @@ Scaffolds a jQuery Mobile web application based on the 'Twitter Bootstrap jQuery
 
 ## CSS
 Created theme over rider
-        '<link rel="stylesheet" href="styles/theme-override.css">'
+
+`<link rel="stylesheet" href="styles/theme-override.css">`
