@@ -16,3 +16,6 @@ Scaffolds a jQuery Mobile web application based on the 'Twitter Bootstrap jQuery
 
 - Run `grunt` to build and `grunt server` to preview
 
+## CSS
+Created theme over rider
+        <link rel="stylesheet" href="styles/theme-override.css">
