@@ -6,6 +6,7 @@
 	<title>jQuery Mobile App - Profile</title>
 	<link rel="stylesheet" href="styles/jquery-mobile.css">
 	<link rel="stylesheet" href="styles/Bootstrap.css">
+	<link rel="stylesheet" href="styles/theme-override.css">
 	<script data-main="scripts/main" src="scripts/libs/require.js"></script>
 </head>
 <body>
@@ -13,13 +14,13 @@
 	<div data-role="panel" id="mypanel" data-position="right" data-display="push">
 	<a href="#mypanel" data-rel="close">Close panel</a>
 	</div>
-		<div data-role="header" data-position="inline" data-theme="c">
+		<div data-role="header" data-position="inline">
 			<h1 class="cus-title-pd">jQuery Mobile App - Profile</h1>
 			<div data-role="navbar">
 				<ul>
-					<li><a href="index.html" data-icon="home">Home</a></li>
+					<li><a href="index.html" data-icon="home" data-transition="slide" data-direction="reverse">Home</a></li>
 					<li><a href="profile.html" data-icon="star" class="ui-btn-active">Profile</a></li>
-					<li><a href="works.html" data-icon="grid">Works</a></li>
+					<li><a href="works.html" data-icon="grid" data-transition="slide">Works</a></li>
 				</ul>
 			</div>
 			
@@ -29,7 +30,7 @@
 			reyhrtk
 		</div>
 		
-		<div data-role="footer" data-position="fixed" data-theme="c">
+		<div data-role="footer" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
 					<li><a href="">Connect Me</a></li>

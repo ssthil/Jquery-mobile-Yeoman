@@ -1,0 +1,23 @@
+.ui-page-theme-a .ui-bar-inherit{
+	background: #F56868;
+	border-color: #ddd;
+	color: #FFF;
+	text-shadow: none;
+	line-height: 2.2em;
+ }
+.ui-page-theme-a{
+	background: #4D525A;
+	border-color: #bbb;
+	color: #B9BEC2;
+	text-shadow: none;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active{
+	background-color: #CFD1D3;
+	border-color: #B6BBBE;
+	color: #363434;
+	text-shadow: 0 1px 0 #F0F0F0;
+}
+.ui-footer-fixed {
+bottom: 0px;
+padding-bottom: 0px;
+}

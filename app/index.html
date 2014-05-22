@@ -6,26 +6,36 @@
 		<title>jQuery Mobile App - Home</title>
 		<link rel="stylesheet" href="styles/jquery-mobile.css">
 		<link rel="stylesheet" href="styles/Bootstrap.css">
+		<link rel="stylesheet" href="styles/theme-override.css">
   		<script data-main="scripts/main" src="scripts/libs/require.js"></script>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" id="mainpage">
 	
-		<div data-role="header" data-position="inline" data-theme="c">
+		<div data-role="header" data-position="inline">
 			<h1 class="cus-title-pd">jQuery Mobile App - Home</h1>
 			<div data-role="navbar">
 				<ul>
 					<li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
-					<li><a href="profile.html" data-icon="star">Profile</a></li>
-					<li><a href="works.html" data-icon="grid">Works</a></li>
+					<li><a href="profile.html" data-icon="star" data-transition="slide">Profile</a></li>
+					<li><a href="works.html" data-icon="grid" data-transition="slide">Works</a></li>
 				</ul>
 			</div>
 		</div>
 		<div data-role="main" class="ui-content cus-bg">
-			reyhrtk
+		
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+			 <a href="#myPopup"  data-rel="popup">Popup</a>
+			
 		</div>
+		<div data-role="popup" id="myPopup" class="ui-content">
+		<a href="#" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-inline ui-btn-right">Delete</a>
+		<h3>Welcome!</h3>
+      <p>The "ui-content" class is especially useful when you have a popup with <span style="font-size:55px;">styled text</span>, and want the edges and corners to look extra clean and sleek. <strong>Note:</strong> The text will wrap to multiple lines if needed.</p>
+    </div>
 	
-	<div data-role="footer" data-position="fixed" data-theme="c">
+	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="">Connect Me</a></li>
@@ -34,5 +44,6 @@
 		</div>
 	</div><!-- /footer -->
 	</div><!-- /page -->
+			
 </body>
 </html>

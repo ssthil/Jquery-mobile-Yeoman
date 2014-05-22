@@ -1,10 +1,10 @@
 require.config({
 	paths: {
-		jquery: 'libs/jquery',
-		jqueryMobile: 'libs/jquery.mobile-1.3.2'
+		jquery: 'libs/jquery-1.10.2',
+		jqueryMobile: 'libs/jquery.mobile-1.4.0'
 	},
   shim: {
-	"libs/jquery.mobile-1.3.2'" : { deps: ["jquery"], exports: 'jquery' },
+	"libs/jquery.mobile-1.4.0'" : { deps: ["jquery"], exports: 'jquery' },
   }
 });
 
